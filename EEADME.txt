@@ -1,6 +1,7 @@
 项目GIT库说明
 
-Docs:  文档
+Docs:  文档\
+   Api: 开发接口定义
 Srcs:  代码库
    App：客户端代码
    Web：网页代码 
