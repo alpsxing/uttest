@@ -1,0 +1,3 @@
+{"ts":1354000185460,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1354000199024,"patch":[[{"diffs":[[1,"test 20121127"]],"start1":0,"start2":0,"length1":0,"length2":13}]],"length":13,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1354000563662,"patch":[[{"diffs":[[-1,"test 20121127"],[1,"项目GIT库说明\n\nDocs:  文档\nSrcs:  代码库\n   App：客户端代码\n   Web：网页代码 \n     Core : 核心平台\n     Demo1 : 活动组织和展现网站原型"]],"start1":0,"start2":0,"length1":13,"length2":98}]],"length":98,"saved":false}
