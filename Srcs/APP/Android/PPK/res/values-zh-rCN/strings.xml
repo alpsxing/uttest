@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">拼拼客</string>
+    <string name="menu_settings">设置</string>
+    <string name="menu_logout">退出</string>
+    
+    <string name="title_register">创建帐户</string>
+    <string name="title_activity_home">拼拼客</string>
+    <string name="title_choose_activity_type">选择活动类型</string>
+    <string name="logo_content_description">拼拼客</string>
+    <string name="hint_username">用户名（邮箱）</string>
+    <string name="hint_password">密码</string>
+    <string name="hint_nickname">昵称</string>
+    <string name="button_login">登陆</string>
+	<string name="button_login_description">点击登陆</string>
+    <string name="button_create">创建</string>
+    <string name="button_cancel">取消</string>
+	<string name="prompt_no_network">没有网络连接</string>
+	<string name="prompt_invalid_username">不合法的用户名（邮箱）.</string>
+	
+	<string name="text_create_account">快速创建</string>
+	<string name="text_my_activity">我的活动</string>
+    <string name="text_activity_center">寻找活动</string>
+    <string name="text_user_center">用户中心</string>
+	
+	<string name="error_conn_fail">连接失败</string>
+    <string name="error_login_fail">登录失败</string>
+    <string name="error_password_fail">未找到匹配的用户名或密码</string>
+    <string name="error_logout_fail">退出时发生错误</string>
+    <string name="error_register_fail">注册失败</string>
+    <string name="error_register_username_used">用户名已经被使用</string>
+    
+</resources>

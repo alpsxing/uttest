@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView_register_prompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <EditText
+        android:id="@+id/edittext_register_username"
+        android:layout_below="@+id/textView_register_prompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_username"
+        android:inputType="textEmailAddress" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/edittext_register_password"
+        android:layout_below="@+id/edittext_register_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/edittext_register_nickname"
+        android:layout_below="@+id/edittext_register_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_nickname" />
+    
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/edittext_register_nickname"
+	    android:orientation="horizontal">
+	    
+	    <Button
+	        android:id="@+id/button_register"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight=".50"
+	        android:text="@string/button_create" />
+	
+	    <Button
+	        android:id="@+id/button_register_cancel"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight=".50"
+	        android:text="@string/button_cancel" />
+	</LinearLayout>
+	
+</RelativeLayout>

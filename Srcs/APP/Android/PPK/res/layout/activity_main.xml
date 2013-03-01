@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:contentDescription="@string/logo_content_description"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView_prompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/edittext_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_username"
+        android:inputType="textEmailAddress" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/edittext_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:contentDescription="@string/button_login_description"
+        android:onClick="button_login_clicked"
+        android:text="@string/button_login"
+        android:width="100dp" />
+
+    <TextView
+        android:id="@+id/textView_create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="@string/text_create_account"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>
+
