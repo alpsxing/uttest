@@ -16,4 +16,25 @@
 	    android:layout_height="match_parent"
 	    android:layout_below="@id/ppk_tab_view" />
 
+	<ScrollView
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:id="@+id/scroll_choose_type"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:layout_alignParentTop="true"
+		    android:layout_marginRight="5dp"
+		    android:orientation="vertical" >
+		    
+		<LinearLayout
+		    xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:id="@+id/layout_choose_type"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical"
+		    android:background="@color/dropdown_background_color" >
+
+	</LinearLayout>
+	</ScrollView>
+	
 </RelativeLayout>
