@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<color name="background_color">#2983d0</color>
+	<color name="window_background_color">#d0d0d0</color>
 	<color name="dropdown_background_color">#524c4c</color>
 	<color name="dropdown_text_color">#ffffff</color>
 	<color name="tab_background_color">#aea2a2</color>
 	<color name="tab_background_color_selected">#5e5555</color>
 	<color name="tab_text_normal_color">#8f8080</color>
 	<color name="tab_text_selected_color">#ffffff</color>
+	<color name="subtitle_background_color">#5e5555</color>
+	<color name="subtitle_text_color">#ffffff</color>
 </resources>

@@ -179,7 +179,7 @@ public class RegisterDialogFragment extends DialogFragment {
 	    	else
 	    	{
 	    		MainActivity main = (MainActivity) getActivity();
-	    		main.gotoEntry();
+	    		main.gotoHome();
 	    	}
 	    }
 	}

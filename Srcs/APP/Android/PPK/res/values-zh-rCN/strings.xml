@@ -11,6 +11,8 @@
     <string name="hint_username">用户名（邮箱）</string>
     <string name="hint_password">密码</string>
     <string name="hint_nickname">昵称</string>
+	<string name="hint_set_location">输入餐馆名，或者点击左侧图标进入地图模式</string>
+    <string name="hint_set_activity_info">输入活动标题，或者点击左侧图标选择LOGO，点击右侧箭头进行其它设置</string>
     <string name="button_login">登陆</string>
 	<string name="button_login_description">点击登陆</string>
     <string name="button_create">创建</string>
@@ -22,7 +24,8 @@
 	<string name="text_my_activity">我的活动</string>
     <string name="text_activity_center">寻找活动</string>
     <string name="text_user_center">用户中心</string>
-	
+    <string name="text_create">创建</string>
+    
 	<string name="error_conn_fail">连接失败</string>
     <string name="error_login_fail">登录失败</string>
     <string name="error_password_fail">未找到匹配的用户名或密码</string>

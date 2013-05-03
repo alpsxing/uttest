@@ -7,11 +7,14 @@
     <string name="title_register">Create account</string>
     <string name="title_activity_home">PPK</string>
     <string name="title_choose_activity_type">Choose Activity Type</string>
+    <string name="title_activity_new_activity_fragment">New Activity</string>
     <string name="logo_content_description">PPK Logo</string>
     <string name="previous_content_description">Previous</string>
     <string name="hint_username">Username(email address)</string>
     <string name="hint_password">Password</string>
     <string name="hint_nickname">Nickname</string>
+    <string name="hint_set_location">Set restaurant name, or click left picture to enter map mode.</string>
+    <string name="hint_set_activity_info">Set title, or click left picture to choose logo, click right arrow to set other options</string>
     <string name="button_login">Login</string>
     <string name="button_login_description">Click to login</string>
     <string name="button_create">Create</string>
@@ -20,6 +23,7 @@
     <string name="text_my_activity">My</string>
     <string name="text_activity_center">Find</string>
     <string name="text_user_center">User</string>
+    <string name="text_create">Create</string>
     <string name="prompt_no_network">No connection available.</string>
     <string name="prompt_invalid_username">Invalid username(email address).</string>
     <string name="error_conn_fail">Failed to connect</string>
@@ -35,5 +39,5 @@
     <string name="saved_uuid">saved_uuid</string>
     <string name="saved_access_token">saved_session_id</string>
     <string name="saved_nickname">saved_nickname</string>
-
+	<string name="key_activity_type">activity_type</string>
 </resources>

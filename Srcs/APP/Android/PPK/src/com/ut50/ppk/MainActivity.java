@@ -150,7 +150,7 @@ public class MainActivity extends FragmentActivity {
 		}
 	}
 	
-	public void gotoEntry()
+	public void gotoHome()
 	{
 		Intent intent = new Intent(this, HomeActivity.class);
 		startActivity(intent);
@@ -308,7 +308,7 @@ public class MainActivity extends FragmentActivity {
 	    	}
 	    	else
 	    	{
-	    		gotoEntry();
+	    		gotoHome();
 	    	}
 	    }
 	}

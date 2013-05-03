@@ -1,5 +1,6 @@
 package com.ut50.ppk;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
@@ -17,20 +18,17 @@ import android.widget.ImageView;
 import android.widget.ImageView.ScaleType;
 import android.widget.LinearLayout;
 import android.widget.LinearLayout.LayoutParams;
-import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
 public class HomeActivity extends FragmentActivity
-						  implements ActivityTypeChooseDialogFragment.ActivityTypeChooseDialogListener, 
-						  PPKTabView.TabClickedListener {
+						  implements PPKTabView.TabClickedListener {
 
 	private static final int NUM_PAGES = 3;
 
 	private PPKTabView m_ppkTabView;
 	private ViewPager m_viewPager;
 	private PagerAdapter m_PagerAdapter;
-	private RelativeLayout.LayoutParams m_savePreviousLayoutParams;
 	private LinearLayout m_typeLayout;
 	private ScrollView m_scrollTypeChoose;
 	
@@ -52,14 +50,9 @@ public class HomeActivity extends FragmentActivity
 
 		if(titled){
         	getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE, R.layout.home_title_layout);
+    		ImageView newActivity = (ImageView)this.findViewById(R.id.imageView_home_title_new);
+    		newActivity.setOnClickListener(newActivityClickListener);
         }
-		
-		ImageView previousArrow = (ImageView)this.findViewById(R.id.imageView_previous);
-		m_savePreviousLayoutParams = (RelativeLayout.LayoutParams)previousArrow.getLayoutParams();
-		previousArrow.setLayoutParams(new RelativeLayout.LayoutParams(0, 0));
-		
-		ImageView newActivity = (ImageView)this.findViewById(R.id.imageView_title_new);
-		newActivity.setOnClickListener(newActivityClickListener);
 	}
 
 	@Override
@@ -87,12 +80,6 @@ public class HomeActivity extends FragmentActivity
 	};
 
 	@Override
-	public void onListResult(int result)
-	{
-		Log.i("HomeActivity::onListResult", "Result:" + result);
-	}
-
-	@Override
 	public void onTabClicked(int position)
 	{
 		Log.i("HomeActivity::onTabClicked", "Position:" + position);
@@ -104,16 +91,20 @@ public class HomeActivity extends FragmentActivity
 		public void onClick(View v)
 		{
 			Log.i("HomeActivity::typeClickListener", "Clicked");
+			HideTypeChooser();
+			TextView txtView = (TextView) v;
+			GotoNewActivity(txtView.getText().toString());
 		}
 	};
-
-	View.OnFocusChangeListener typeFocusChangeListener = new View.OnFocusChangeListener() {
-		
-		@Override
-		public void onFocusChange(View v, boolean hasFocus) {
-			Log.i("HomeActivity::typeFocusChangeListener", "Focus " + hasFocus);
-		}
-	};
+	
+	private void GotoNewActivity(String text)
+	{
+		Intent intent = new Intent(this, NewActivityFragmentActivity.class);
+		intent.putExtra("type", text);
+		startActivity(intent);
+		//Set the transition -> method available from Android 2.0 and beyond  
+		overridePendingTransition(R.animator.push_left_in,R.animator.push_up_out);
+	}
 
 	private void PrepreButtons()
 	{
@@ -143,8 +134,6 @@ public class HomeActivity extends FragmentActivity
 	        txtView.setOnClickListener(typeClickListener);
 	        m_typeLayout.addView(txtView, params);
 		}
-		
-		m_scrollTypeChoose.setOnFocusChangeListener(typeFocusChangeListener);
 		
 		HideTypeChooser();
 	}

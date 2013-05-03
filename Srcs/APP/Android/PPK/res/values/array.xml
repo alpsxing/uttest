@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="ActType">
-        <item>Outdoor Act</item>
-        <item>Online Act</item>
-        <item>Other Act</item>
+        <item>Dinner party</item>
     </string-array>
 </resources>
