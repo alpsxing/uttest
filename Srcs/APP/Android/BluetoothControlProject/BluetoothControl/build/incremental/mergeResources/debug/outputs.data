@@ -1,12 +1,12 @@
 # incremental data. DO NOT EDIT.
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
-1371800176170 1517 c86985bd42b5f79044ea2547e12eb320673d11a4 D:\Github\uttest\Srcs\APP\Android\BluetoothControlProject\BluetoothControl\build\res\all\debug\values-zh\values.xml
+1371828991653 1935 07f5ae22f07de6030c12901aa1585316f477121c D:\Github\uttest\Srcs\APP\Android\BluetoothControlProject\BluetoothControl\build\res\all\debug\values-zh\values.xml
 1371800176157 2906 584ad09e2ff01bd4f3ad2f4a6b51808f8ec7cf7b D:\Github\uttest\Srcs\APP\Android\BluetoothControlProject\BluetoothControl\build\res\all\debug\layout\activity_main.xml
 1371789067357 848 3e771c33e03f71a10b60a401e0bbe1f29f4d33cf D:\Github\uttest\Srcs\APP\Android\BluetoothControlProject\BluetoothControl\build\res\all\debug\layout\device_list.xml
 1371273115958 24654 696bbbc63d2250ef7d3373f2d602e604acd13d8c D:\Github\uttest\Srcs\APP\Android\BluetoothControlProject\BluetoothControl\build\res\all\debug\drawable-xxhdpi\ic_launcher.png
 1371273115964 224 3bee0d9a6f0efbaf11495ad45fdeb8f71aee62e8 D:\Github\uttest\Srcs\APP\Android\BluetoothControlProject\BluetoothControl\build\res\all\debug\values-v14\values.xml
-1371800176166 2197 eac8ec83dfca70d7035d58af3f477d76c3cf4e9e D:\Github\uttest\Srcs\APP\Android\BluetoothControlProject\BluetoothControl\build\res\all\debug\values\values.xml
+1371828991645 2639 c0beca32397f751306683fe4e4aa1c31e14aa9c1 D:\Github\uttest\Srcs\APP\Android\BluetoothControlProject\BluetoothControl\build\res\all\debug\values\values.xml
 1371273115958 3769 eec07752d40e268ed7f4a1730acc77ab1e40aeb0 D:\Github\uttest\Srcs\APP\Android\BluetoothControlProject\BluetoothControl\build\res\all\debug\drawable-mdpi\ic_launcher.png
 1371273115958 7721 39b0f5a0570da92f471225402ad0ea6de30bf2be D:\Github\uttest\Srcs\APP\Android\BluetoothControlProject\BluetoothControl\build\res\all\debug\drawable-hdpi\ic_launcher.png
 1371788737343 285 cbbc5b0cf91c13cb7c0bd0b0d52c004492b5493e D:\Github\uttest\Srcs\APP\Android\BluetoothControlProject\BluetoothControl\build\res\all\debug\layout\device_name.xml

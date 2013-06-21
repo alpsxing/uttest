@@ -12,11 +12,17 @@
     <string name="button_enable_bluetooth">Enable Bluetooth</string>
     <string name="button_monitor">Monitor</string>
     <string name="button_scan_bluetooth">Scan Devices</string>
+    <string name="button_stop_calibrate">Stop Cal.</string>
+    <string name="button_stop_monitor">Stop Monitor</string>
     <string name="text_no_divice">No device found</string>
     <string name="text_status_connected">Connected</string>
     <string name="text_status_connecting">Connecting</string>
     <string name="text_status_paired">Bluetooth device is paired</string>
     <string name="title_device_list">Device List</string>
+    <string name="toast_bluetooth_cal_start">Calibration started</string>
+    <string name="toast_bluetooth_cal_start_fail">Calibration start failed</string>
+    <string name="toast_bluetooth_cal_stop">Calibration completed</string>
+    <string name="toast_bluetooth_cal_stop_fail">Calibration stop failed</string>
     <string name="toast_bluetooth_connect_fail">Failed to connect.</string>
     <string name="toast_bluetooth_connect_lost">Lost connection.</string>
     <string name="toast_bluetooth_connected">Connected to device.</string>

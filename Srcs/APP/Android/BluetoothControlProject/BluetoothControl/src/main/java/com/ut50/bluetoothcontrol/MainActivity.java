@@ -47,6 +47,8 @@ public class MainActivity extends Activity {
     private static final int STAGE_BLUETOOTH_CONNECTED = 5;
     private static final int STAGE_BLUETOOTH_MONITORING = 6;
     private static final int STAGE_BLUETOOTH_CALIBRATING = 7;
+    private static final int STAGE_BLUETOOTH_CALIBRATE_START = 8;
+    private static final int STAGE_BLUETOOTH_CALIBRATE_STOP = 9;
     private static final int STAGE_BLUETOOTH_PENDING = 255;
 
     private static final int COUNT_DOWN_TIME = 5000;
@@ -55,6 +57,8 @@ public class MainActivity extends Activity {
     private static final byte[] MONITOR_REQUEST = {0x31};
     private static final byte[] RESULT_LOW_BOUND = {0x0D, 0x0A, 0x30, 0x30, 0x30, 0x2E, 0x30, 0x00};
     private static final byte[] RESULT_HIGH_BOUND = {0x0D, 0x0A, 0x33, 0x39, 0x39, 0x2E, 0x39, (byte)0xFF};
+    private static final byte[] START_CALIBRATION_REQUEST = {(byte)0xC0};
+    private static final byte[] STOP_CALIBRATION_REQUEST = {(byte)0xC1};
 
     private static final int RESULT_LENGTH = 8;
 
@@ -134,11 +138,16 @@ public class MainActivity extends Activity {
     @Override
     protected void onResume() {
         super.onResume();
-        if(isDeviceAvailable()) {
-            setButtonState(STAGE_BLUETOOTH_IDLE);
+        if (!mBluetoothAdapter.isEnabled()) {
+            setButtonState(STAGE_BLUETOOTH_DISABLED);
         }
         else {
-            setButtonState(STAGE_BLUETOOTH_NO_DEVICE);
+            if(isDeviceAvailable()) {
+                setButtonState(STAGE_BLUETOOTH_IDLE);
+            }
+            else {
+                setButtonState(STAGE_BLUETOOTH_NO_DEVICE);
+            }
         }
     }
 
@@ -233,6 +242,18 @@ public class MainActivity extends Activity {
                     monitor();
                 }
             }
+            else if(v == mButtonCalibrate) {
+                if(mStage == STAGE_BLUETOOTH_CALIBRATING) {
+                    setButtonState(STAGE_BLUETOOTH_CALIBRATE_STOP);
+                    stopCalibration();
+                }
+                else {
+                    setButtonState(STAGE_BLUETOOTH_CALIBRATE_START);
+                    setProgressBarIndeterminateVisibility(true);
+                    mButtonMonitor.setText(R.string.button_stop_calibrate);
+                    startCalibration();
+                }
+            }
         }
     };
 
@@ -269,16 +290,55 @@ public class MainActivity extends Activity {
         mTextResult.setText(Float.toString(degree));
     }
 
+    private void startCalibration() {
+        mBluetoothService.write(START_CALIBRATION_REQUEST);
+        mTimer.start();
+    }
+
+    private void analyzeCalibrateStartResult() {
+        if((mResult[2] != 0) || (mResult[3] != 0) || (mResult[4] != 0) || (mResult[6] != 0)) {
+            setProgressBarIndeterminateVisibility(false);
+            Toast.makeText(this, R.string.toast_bluetooth_cal_start_fail, Toast.LENGTH_LONG).show();
+            setButtonState(STAGE_BLUETOOTH_CONNECTED);
+        }
+        else {
+            Toast.makeText(this, R.string.toast_bluetooth_cal_start, Toast.LENGTH_LONG).show();
+            setButtonState(STAGE_BLUETOOTH_CALIBRATING);
+            mButtonMonitor.setText(R.string.button_stop_calibrate);
+        }
+    }
+
+    private void stopCalibration() {
+        mBluetoothService.write(STOP_CALIBRATION_REQUEST);
+        mTimer.start();
+    }
+
+    private void analyzeCalibrateStopResult() {
+        int level = mResult[6];
+        if((mResult[2] != 0) || (mResult[3] != 0) || (mResult[4] != 0)) {
+            setProgressBarIndeterminateVisibility(false);
+            Toast.makeText(this, R.string.toast_bluetooth_cal_stop_fail, Toast.LENGTH_LONG).show();
+            setButtonState(STAGE_BLUETOOTH_CONNECTED);
+        }
+        else {
+            setProgressBarIndeterminateVisibility(false);
+            Toast.makeText(this, R.string.toast_bluetooth_cal_stop, Toast.LENGTH_LONG).show();
+            setButtonState(STAGE_BLUETOOTH_CONNECTED);
+            mButtonMonitor.setText(R.string.button_calibrate);
+            mTextResult.setText("CAL: " + Integer.toString(level));
+        }
+    }
+
     private boolean isResultValid() {
-        byte chsum = 0;
+        byte check_sum = 0;
         int i;
         for(i = 0; i < mResultLen - 1; i ++) {
             if((mResult[i] < RESULT_LOW_BOUND[i]) || (mResult[i] > RESULT_HIGH_BOUND[i])) {
                 return false;
             }
-            chsum += mResult[i];
+            check_sum += mResult[i];
         }
-        if(chsum == mResult[i]) {
+        if(check_sum == mResult[i]) {
             return true;
         }
         else {
@@ -335,6 +395,12 @@ public class MainActivity extends Activity {
                                 if(mStage == STAGE_BLUETOOTH_MONITORING) {
                                     analyzeMonitorResult();
                                 }
+                                else if(mStage == STAGE_BLUETOOTH_CALIBRATE_START) {
+                                    analyzeCalibrateStartResult();
+                                }
+                                else if(mStage == STAGE_BLUETOOTH_CALIBRATE_STOP) {
+                                    analyzeCalibrateStopResult();
+                                }
                             }
                             mResultLen = 0;
                             if(mStage == STAGE_BLUETOOTH_MONITORING) {
@@ -371,6 +437,16 @@ public class MainActivity extends Activity {
             Toast.makeText(getApplicationContext(), R.string.toast_bluetooth_timeout, Toast.LENGTH_LONG).show();
             if(mStage == STAGE_BLUETOOTH_MONITORING) {
                 monitor();
+            }
+            else if(mStage == STAGE_BLUETOOTH_CALIBRATE_START) {
+                setButtonState(STAGE_BLUETOOTH_CONNECTED);
+                setProgressBarIndeterminateVisibility(false);
+                mButtonMonitor.setText(R.string.button_calibrate);
+            }
+            else if(mStage == STAGE_BLUETOOTH_CALIBRATE_STOP) {
+                setButtonState(STAGE_BLUETOOTH_CONNECTED);
+                setProgressBarIndeterminateVisibility(false);
+                mButtonMonitor.setText(R.string.button_calibrate);
             }
         }
     };
@@ -427,6 +503,8 @@ public class MainActivity extends Activity {
                 mButtonCalibrate.setEnabled(true);
                 mButtonMonitor.setEnabled(false);
                 break;
+            case STAGE_BLUETOOTH_CALIBRATE_START:
+            case STAGE_BLUETOOTH_CALIBRATE_STOP:
             case STAGE_BLUETOOTH_PENDING:
                 mButtonEnableBluetooth.setEnabled(false);
                 mButtonScanBluetooth.setEnabled(false);

@@ -14,6 +14,10 @@
     <string name="toast_bluetooth_connect_lost">Lost connection.</string>
     <string name="toast_bluetooth_timeout">Timeout!</string>
     <string name="toast_bluetooth_data_invalid">Data invalid!</string>
+    <string name="toast_bluetooth_cal_start_fail">Calibration start failed</string>
+    <string name="toast_bluetooth_cal_start">Calibration started</string>
+    <string name="toast_bluetooth_cal_stop_fail">Calibration stop failed</string>
+    <string name="toast_bluetooth_cal_stop">Calibration completed</string>
 
     <string name="text_status_paired">Bluetooth device is paired</string>
     <string name="text_status_connecting">Connecting</string>
