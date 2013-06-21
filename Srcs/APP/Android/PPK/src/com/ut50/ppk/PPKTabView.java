@@ -43,7 +43,7 @@ public class PPKTabView extends LinearLayout
         }
     }
     
-    private void SetTextViewApperance(TextView txtView, boolean selected, int position) // 0£º leftmost 1: middle 2:rightmost
+    private void SetTextViewApperance(TextView txtView, boolean selected, int position)
     {
         txtView.setGravity(Gravity.CENTER);
         txtView.setPadding(0, 25, 0, 25);
