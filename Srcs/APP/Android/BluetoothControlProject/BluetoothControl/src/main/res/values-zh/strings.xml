@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" >蓝牙控制</string>
+    <string name="title_device_list">设备列表</string>
+    <string name="action_settings" >设置</string>
+    <string name="toast_bluetooth_nav">没有蓝牙设备</string>
+    <string name="toast_bluetooth_ne">没有使能蓝牙设备</string>
+    <string name="toast_bluetooth_nd">没有找到蓝牙设备</string>
+    <string name="toast_bluetooth_connecting">正在连接</string>
+    <string name="toast_bluetooth_connected">连接成功</string>
+    <string name="toast_bluetooth_disconnect">断开连接</string>
+    <string name="toast_bluetooth_connect_fail">连接失败</string>
+    <string name="toast_bluetooth_connect_lost">连接中断</string>
+    <string name="toast_bluetooth_timeout">应答超时</string>
+    <string name="toast_bluetooth_data_invalid">数据校验失败!</string>
+
+    <string name="text_status_not_paired">蓝牙设备尚未配对成功</string>
+    <string name="text_status_paired">蓝牙设备配对成功</string>
+    <string name="text_no_divice">没有发现设备</string>
+
+    <string name="button_enable_bluetooth">启用蓝牙</string>
+    <string name="button_scan_bluetooth">扫描设备</string>
+    <string name="button_connect_bluetooth">连接</string>
+    <string name="button_disconnect_bluetooth">断开</string>
+    <string name="button_calibrate">校准</string>
+    <string name="button_monitor">监测</string>
+    <string name="button_stop_monitor">停止监测</string>
+    <string name="button_stop_calibrate">停止校准</string>
+
+</resources>
