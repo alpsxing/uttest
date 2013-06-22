@@ -19,10 +19,10 @@
     <list default="true" id="f574a0dd-24cf-4d19-b3bd-4e5ef2dd7776" name="Default" comment="" />
     <ignored path="BluetoothControl.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/MainActivity.java" changelist="f574a0dd-24cf-4d19-b3bd-4e5ef2dd7776" time="1371828961912" ignored="false" />
+    <file path="/MainActivity.java" changelist="f574a0dd-24cf-4d19-b3bd-4e5ef2dd7776" time="1371875490839" ignored="false" />
     <file path="$PROJECT_DIR$/BluetoothControl/build/source/r/debug/com/ut50/bluetoothcontrol/R.java" changelist="f574a0dd-24cf-4d19-b3bd-4e5ef2dd7776" time="1371818472913" ignored="false" />
     <file path="/fragment.java" changelist="f574a0dd-24cf-4d19-b3bd-4e5ef2dd7776" time="1371713329753" ignored="false" />
-    <file path="/BluetoothService.java" changelist="f574a0dd-24cf-4d19-b3bd-4e5ef2dd7776" time="1371818547228" ignored="false" />
+    <file path="/BluetoothService.java" changelist="f574a0dd-24cf-4d19-b3bd-4e5ef2dd7776" time="1371873775988" ignored="false" />
     <file path="/strings.xml" changelist="f574a0dd-24cf-4d19-b3bd-4e5ef2dd7776" time="1371828726101" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/sdk/samples/android-17/BluetoothChat/gen/com/example/android/BluetoothChat/BuildConfig.java" changelist="f574a0dd-24cf-4d19-b3bd-4e5ef2dd7776" time="1371788667451" ignored="false" />
     <file path="/Dummy.txt" changelist="f574a0dd-24cf-4d19-b3bd-4e5ef2dd7776" time="1371783272916" ignored="false" />
@@ -30,6 +30,7 @@
     <file path="/DeviceListActivity.java" changelist="f574a0dd-24cf-4d19-b3bd-4e5ef2dd7776" time="1371783484401" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/sdk/samples/android-17/BluetoothChat/gen/com/example/android/BluetoothChat/R.java" changelist="f574a0dd-24cf-4d19-b3bd-4e5ef2dd7776" time="1371788645826" ignored="false" />
     <file path="$PROJECT_DIR$/BluetoothControl/build/res/all/debug/layout/activity_main.xml" changelist="f574a0dd-24cf-4d19-b3bd-4e5ef2dd7776" time="1371800185056" ignored="false" />
+    <file path="E:/BaiduMap_AndroidSDK_v2.1.2_Sample/src/baidumapsdk/demo/DemoApplication.java" changelist="f574a0dd-24cf-4d19-b3bd-4e5ef2dd7776" time="1371877974349" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +113,19 @@
       <file leaf-file-name="BluetoothService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BluetoothControl/src/main/java/com/ut50/bluetoothcontrol/BluetoothService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="0" selection-start="2878" selection-end="2878" vertical-scroll-proportion="0.0">
+            <state line="299" column="13" selection-start="10312" selection-end="10312" vertical-scroll-proportion="-10.961538">
+              <folding>
+                <element signature="e#0#11073#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Handler.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/os/Handler.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="96" selection-start="1189" selection-end="1195" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -121,7 +134,7 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BluetoothControl/src/main/java/com/ut50/bluetoothcontrol/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="262" column="39" selection-start="10714" selection-end="10714" vertical-scroll-proportion="6.3333335">
+            <state line="27" column="59" selection-start="773" selection-end="773" vertical-scroll-proportion="2.0117648">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#4268#4272#0" expanded="true" />
@@ -132,46 +145,24 @@
                 <element signature="e#8983#9016#0" expanded="true" />
                 <element signature="e#9491#9514#0" expanded="true" />
                 <element signature="e#9864#9892#0" expanded="true" />
-                <element signature="e#10388#10418#0" expanded="true" />
-                <element signature="e#12286#12316#0" expanded="true" />
-                <element signature="e#12702#12706#0" expanded="true" />
-                <element signature="e#12940#12944#0" expanded="true" />
-                <element signature="e#13098#13123#0" expanded="true" />
-                <element signature="e#13766#17760#0" expanded="true" />
-                <element signature="e#14145#14168#0" expanded="true" />
-                <element signature="e#14446#14469#0" expanded="true" />
-                <element signature="e#14743#14766#0" expanded="true" />
-                <element signature="e#15954#15977#0" expanded="true" />
-                <element signature="e#17149#17182#0" expanded="true" />
-                <element signature="e#17220#17243#0" expanded="true" />
-                <element signature="e#17542#17575#0" expanded="true" />
-                <element signature="e#17613#17636#0" expanded="true" />
-                <element signature="e#17753#17754#0" expanded="true" />
-                <element signature="e#18018#18041#0" expanded="true" />
-                <element signature="e#18425#18450#0" expanded="true" />
-                <element signature="e#18691#18716#0" expanded="true" />
+                <element signature="e#11916#11920#0" expanded="true" />
+                <element signature="e#12097#12101#0" expanded="true" />
+                <element signature="e#12260#12290#0" expanded="true" />
+                <element signature="e#12692#12696#0" expanded="true" />
+                <element signature="e#12930#12934#0" expanded="true" />
+                <element signature="e#13090#13115#0" expanded="true" />
+                <element signature="e#14190#14213#0" expanded="true" />
+                <element signature="e#14491#14514#0" expanded="true" />
+                <element signature="e#14788#14811#0" expanded="true" />
+                <element signature="e#15999#16022#0" expanded="true" />
+                <element signature="e#18000#18033#0" expanded="true" />
+                <element signature="e#18071#18094#0" expanded="true" />
+                <element signature="e#18393#18426#0" expanded="true" />
+                <element signature="e#18464#18487#0" expanded="true" />
+                <element signature="e#18869#18892#0" expanded="true" />
+                <element signature="e#19276#19301#0" expanded="true" />
+                <element signature="e#19542#19567#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BluetoothControl/src/main/res/layout/activity_main.xml">
-          <provider editor-type-id="text-editor">
-            <state line="10" column="11" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Intent.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/content/Intent.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="252" column="0" selection-start="21151" selection-end="21151" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -180,20 +171,13 @@
         <entry file="file://$PROJECT_DIR$/BluetoothControl/src/main/java/com/ut50/bluetoothcontrol/DeviceListActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="71" column="0" selection-start="2911" selection-end="2911" vertical-scroll-proportion="0.0">
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#2318#2365#0" expanded="false" />
+                <element signature="e#2579#3222#0" expanded="false" />
+                <element signature="e#3215#3216#0" expanded="false" />
+              </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="device_name.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BluetoothControl/src/main/res/layout/device_name.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="10" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
@@ -212,9 +196,9 @@
         <option value="$PROJECT_DIR$/BluetoothControl/src/main/java/com/ut50/bluetoothcontrol/DeviceListActivity.java" />
         <option value="$PROJECT_DIR$/BluetoothControl/src/main/res/layout/device_list.xml" />
         <option value="$PROJECT_DIR$/BluetoothControl/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/BluetoothControl/src/main/java/com/ut50/bluetoothcontrol/BluetoothService.java" />
         <option value="$PROJECT_DIR$/BluetoothControl/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/BluetoothControl/src/main/res/values-zh/strings.xml" />
+        <option value="$PROJECT_DIR$/BluetoothControl/src/main/java/com/ut50/bluetoothcontrol/BluetoothService.java" />
         <option value="$PROJECT_DIR$/BluetoothControl/src/main/java/com/ut50/bluetoothcontrol/MainActivity.java" />
       </list>
     </option>
@@ -252,6 +236,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -259,15 +244,9 @@
               <option name="myItemId" value="BluetoothControl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="BluetoothControl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BluetoothControlProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -279,10 +258,6 @@
               <option name="myItemId" value="BluetoothControlProject" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BluetoothControl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -295,14 +270,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="BluetoothControl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -320,19 +287,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values-zh" />
+              <option name="myItemId" value="libs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -350,111 +305,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="libs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BluetoothControl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BluetoothControlProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BluetoothControl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BluetoothControl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BluetoothControlProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BluetoothControl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BluetoothControl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BluetoothControlProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BluetoothControl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bluetoothcontrol" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="android-support-v4.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -471,8 +331,8 @@
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -644,20 +504,23 @@
       <workItem from="1371788404067" duration="12095000" />
       <workItem from="1371818193250" duration="1004000" />
       <workItem from="1371827786463" duration="1249000" />
+      <workItem from="1371872629101" duration="5840000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32710000" />
+    <option name="totallyTimeSpent" value="38550000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32651514" sideWeight="0.7885906" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32651514" sideWeight="0.7885906" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27348992" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5285235" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -668,11 +531,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.67114097" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20681818" sideWeight="0.7885906" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20681818" sideWeight="0.4714765" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21140939" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3271078" sideWeight="0.7878465" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3271078" sideWeight="0.7878465" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -681,15 +542,15 @@
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32954547" sideWeight="0.67114097" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32954547" sideWeight="0.67114097" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32651514" sideWeight="0.7885906" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32651514" sideWeight="0.7885906" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27348992" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5302013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -698,12 +559,12 @@
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32718122" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.67114097" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.67114097" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20681818" sideWeight="0.7885906" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32885906" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21140939" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -767,13 +628,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BluetoothControl/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="32" selection-start="324" selection-end="324" vertical-scroll-proportion="0.13333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/app/Activity.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="289" column="85" selection-start="11395" selection-end="11406" vertical-scroll-proportion="0.33213645" />
@@ -800,35 +654,21 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BluetoothControl/src/main/res/layout/device_name.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="10" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/content/Intent.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="252" column="0" selection-start="21151" selection-end="21151" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BluetoothControl/src/main/res/layout/device_list.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="49" selection-start="206" selection-end="206" vertical-scroll-proportion="0.16473988">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BluetoothControl/src/main/java/com/ut50/bluetoothcontrol/DeviceListActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="0" selection-start="2911" selection-end="2911" vertical-scroll-proportion="0.0">
+        <state line="3" column="49" selection-start="206" selection-end="206" vertical-scroll-proportion="0.16473988">
           <folding />
         </state>
       </provider>
@@ -836,23 +676,6 @@
     <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/java/lang/String.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="11" selection-start="590" selection-end="590" vertical-scroll-proportion="0.33239833" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BluetoothControl/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="text-editor">
-        <state line="10" column="11" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BluetoothControl/src/main/java/com/ut50/bluetoothcontrol/BluetoothService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="0" selection-start="2878" selection-end="2878" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BluetoothControl/src/main/res/values/strings.xml">
@@ -869,9 +692,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BluetoothControl/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="10" column="11" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/content/Intent.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="252" column="0" selection-start="21151" selection-end="21151" vertical-scroll-proportion="0.03411131">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BluetoothControl/src/main/java/com/ut50/bluetoothcontrol/DeviceListActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="0" selection-start="2911" selection-end="2911" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2318#2365#0" expanded="false" />
+            <element signature="e#2579#3222#0" expanded="false" />
+            <element signature="e#3215#3216#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/os/Handler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="96" selection-start="1189" selection-end="1195" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BluetoothControl/src/main/java/com/ut50/bluetoothcontrol/BluetoothService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="299" column="13" selection-start="10312" selection-end="10312" vertical-scroll-proportion="-10.961538">
+          <folding>
+            <element signature="e#0#11073#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BluetoothControl/src/main/java/com/ut50/bluetoothcontrol/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="262" column="39" selection-start="10714" selection-end="10714" vertical-scroll-proportion="6.3333335">
+        <state line="27" column="59" selection-start="773" selection-end="773" vertical-scroll-proportion="2.0117648">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#4268#4272#0" expanded="true" />
@@ -882,24 +751,23 @@
             <element signature="e#8983#9016#0" expanded="true" />
             <element signature="e#9491#9514#0" expanded="true" />
             <element signature="e#9864#9892#0" expanded="true" />
-            <element signature="e#10388#10418#0" expanded="true" />
-            <element signature="e#12286#12316#0" expanded="true" />
-            <element signature="e#12702#12706#0" expanded="true" />
-            <element signature="e#12940#12944#0" expanded="true" />
-            <element signature="e#13098#13123#0" expanded="true" />
-            <element signature="e#13766#17760#0" expanded="true" />
-            <element signature="e#14145#14168#0" expanded="true" />
-            <element signature="e#14446#14469#0" expanded="true" />
-            <element signature="e#14743#14766#0" expanded="true" />
-            <element signature="e#15954#15977#0" expanded="true" />
-            <element signature="e#17149#17182#0" expanded="true" />
-            <element signature="e#17220#17243#0" expanded="true" />
-            <element signature="e#17542#17575#0" expanded="true" />
-            <element signature="e#17613#17636#0" expanded="true" />
-            <element signature="e#17753#17754#0" expanded="true" />
-            <element signature="e#18018#18041#0" expanded="true" />
-            <element signature="e#18425#18450#0" expanded="true" />
-            <element signature="e#18691#18716#0" expanded="true" />
+            <element signature="e#11916#11920#0" expanded="true" />
+            <element signature="e#12097#12101#0" expanded="true" />
+            <element signature="e#12260#12290#0" expanded="true" />
+            <element signature="e#12692#12696#0" expanded="true" />
+            <element signature="e#12930#12934#0" expanded="true" />
+            <element signature="e#13090#13115#0" expanded="true" />
+            <element signature="e#14190#14213#0" expanded="true" />
+            <element signature="e#14491#14514#0" expanded="true" />
+            <element signature="e#14788#14811#0" expanded="true" />
+            <element signature="e#15999#16022#0" expanded="true" />
+            <element signature="e#18000#18033#0" expanded="true" />
+            <element signature="e#18071#18094#0" expanded="true" />
+            <element signature="e#18393#18426#0" expanded="true" />
+            <element signature="e#18464#18487#0" expanded="true" />
+            <element signature="e#18869#18892#0" expanded="true" />
+            <element signature="e#19276#19301#0" expanded="true" />
+            <element signature="e#19542#19567#0" expanded="true" />
           </folding>
         </state>
       </provider>

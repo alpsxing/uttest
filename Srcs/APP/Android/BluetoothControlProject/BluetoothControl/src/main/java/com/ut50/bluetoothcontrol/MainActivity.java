@@ -250,7 +250,6 @@ public class MainActivity extends Activity {
                 else {
                     setButtonState(STAGE_BLUETOOTH_CALIBRATE_START);
                     setProgressBarIndeterminateVisibility(true);
-                    mButtonMonitor.setText(R.string.button_stop_calibrate);
                     startCalibration();
                 }
             }
@@ -286,7 +285,7 @@ public class MainActivity extends Activity {
 
     private void analyzeMonitorResult() {
         float degree = 0.0f;
-        degree  = mResult[2] * 100 + mResult[3] * 10 + mResult[4] + mResult[6] / 10.0f;
+        degree  = (mResult[2] - 0x30) * 100 + (mResult[3] - 0x30) * 10 + (mResult[4] - 0x30) + (mResult[6] - 0x30) / 10.0f;
         mTextResult.setText(Float.toString(degree));
     }
 
@@ -296,7 +295,7 @@ public class MainActivity extends Activity {
     }
 
     private void analyzeCalibrateStartResult() {
-        if((mResult[2] != 0) || (mResult[3] != 0) || (mResult[4] != 0) || (mResult[6] != 0)) {
+        if((mResult[2] != 0x30) || (mResult[3] != 0x30) || (mResult[4] != 0x30) || (mResult[6] != 0x30)) {
             setProgressBarIndeterminateVisibility(false);
             Toast.makeText(this, R.string.toast_bluetooth_cal_start_fail, Toast.LENGTH_LONG).show();
             setButtonState(STAGE_BLUETOOTH_CONNECTED);
@@ -304,7 +303,7 @@ public class MainActivity extends Activity {
         else {
             Toast.makeText(this, R.string.toast_bluetooth_cal_start, Toast.LENGTH_LONG).show();
             setButtonState(STAGE_BLUETOOTH_CALIBRATING);
-            mButtonMonitor.setText(R.string.button_stop_calibrate);
+            mButtonCalibrate.setText(R.string.button_stop_calibrate);
         }
     }
 
@@ -314,8 +313,8 @@ public class MainActivity extends Activity {
     }
 
     private void analyzeCalibrateStopResult() {
-        int level = mResult[6];
-        if((mResult[2] != 0) || (mResult[3] != 0) || (mResult[4] != 0)) {
+        int level = mResult[6] - 0x30;
+        if((mResult[2] != 0x30) || (mResult[3] != 0x30) || (mResult[4] != 0x30)) {
             setProgressBarIndeterminateVisibility(false);
             Toast.makeText(this, R.string.toast_bluetooth_cal_stop_fail, Toast.LENGTH_LONG).show();
             setButtonState(STAGE_BLUETOOTH_CONNECTED);
@@ -324,7 +323,8 @@ public class MainActivity extends Activity {
             setProgressBarIndeterminateVisibility(false);
             Toast.makeText(this, R.string.toast_bluetooth_cal_stop, Toast.LENGTH_LONG).show();
             setButtonState(STAGE_BLUETOOTH_CONNECTED);
-            mButtonMonitor.setText(R.string.button_calibrate);
+            mButtonCalibrate.setText(R.string.button_calibrate);
+            mTextResult.setVisibility(View.VISIBLE);
             mTextResult.setText("CAL: " + Integer.toString(level));
         }
     }
@@ -405,6 +405,16 @@ public class MainActivity extends Activity {
                             mResultLen = 0;
                             if(mStage == STAGE_BLUETOOTH_MONITORING) {
                                 monitor();
+                            }
+                            else if(mStage == STAGE_BLUETOOTH_CALIBRATE_START) {
+                                setProgressBarIndeterminateVisibility(false);
+                                Toast.makeText(getApplicationContext(), R.string.toast_bluetooth_cal_start_fail, Toast.LENGTH_LONG).show();
+                                setButtonState(STAGE_BLUETOOTH_CONNECTED);
+                            }
+                            else if(mStage == STAGE_BLUETOOTH_CALIBRATE_STOP) {
+                                setProgressBarIndeterminateVisibility(false);
+                                Toast.makeText(getApplicationContext(), R.string.toast_bluetooth_cal_stop_fail, Toast.LENGTH_LONG).show();
+                                setButtonState(STAGE_BLUETOOTH_CONNECTED);
                             }
                         }
                     }
