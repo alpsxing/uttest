@@ -11,23 +11,23 @@ public final class R {
     public static final class attr {
     }
     public static final class dimen {
-        public static final int activity_horizontal_margin=0x7f040000;
-        public static final int activity_vertical_margin=0x7f040001;
+        public static final int activity_horizontal_margin=0x7f050000;
+        public static final int activity_vertical_margin=0x7f050001;
     }
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f080009;
-        public static final int button_calibrate=0x7f080004;
-        public static final int button_connect=0x7f080002;
-        public static final int button_enable_bluetooth=0x7f080000;
-        public static final int button_monitor=0x7f080005;
-        public static final int button_scan_devices=0x7f080001;
-        public static final int linearLayout=0x7f080003;
-        public static final int paired_devices=0x7f080008;
-        public static final int textView_result=0x7f080006;
-        public static final int title_paired_devices=0x7f080007;
+        public static final int action_settings=0x7f090009;
+        public static final int button_calibrate=0x7f090004;
+        public static final int button_connect=0x7f090002;
+        public static final int button_enable_bluetooth=0x7f090000;
+        public static final int button_monitor=0x7f090005;
+        public static final int button_scan_devices=0x7f090001;
+        public static final int linearLayout=0x7f090003;
+        public static final int paired_devices=0x7f090008;
+        public static final int textView_result=0x7f090006;
+        public static final int title_paired_devices=0x7f090007;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -35,39 +35,48 @@ public final class R {
         public static final int device_name=0x7f030002;
     }
     public static final class menu {
-        public static final int main=0x7f070000;
+        public static final int main=0x7f080000;
     }
     public static final class string {
-        public static final int action_settings=0x7f050000;
-        public static final int app_name=0x7f050001;
-        public static final int button_calibrate=0x7f050002;
-        public static final int button_connect_bluetooth=0x7f050003;
-        public static final int button_disconnect_bluetooth=0x7f050004;
-        public static final int button_enable_bluetooth=0x7f050005;
-        public static final int button_monitor=0x7f050006;
-        public static final int button_scan_bluetooth=0x7f050007;
-        public static final int button_stop_calibrate=0x7f050008;
-        public static final int button_stop_monitor=0x7f050009;
-        public static final int text_no_divice=0x7f05000a;
-        public static final int text_status_connected=0x7f05000b;
-        public static final int text_status_connecting=0x7f05000c;
-        public static final int text_status_not_paired=0x7f05001d;
-        public static final int text_status_paired=0x7f05000d;
-        public static final int title_device_list=0x7f05000e;
-        public static final int toast_bluetooth_cal_start=0x7f05000f;
-        public static final int toast_bluetooth_cal_start_fail=0x7f050010;
-        public static final int toast_bluetooth_cal_stop=0x7f050011;
-        public static final int toast_bluetooth_cal_stop_fail=0x7f050012;
-        public static final int toast_bluetooth_connect_fail=0x7f050013;
-        public static final int toast_bluetooth_connect_lost=0x7f050014;
-        public static final int toast_bluetooth_connected=0x7f050015;
-        public static final int toast_bluetooth_connecting=0x7f050016;
-        public static final int toast_bluetooth_data_invalid=0x7f050017;
-        public static final int toast_bluetooth_disconnect=0x7f050018;
-        public static final int toast_bluetooth_nav=0x7f050019;
-        public static final int toast_bluetooth_nd=0x7f05001a;
-        public static final int toast_bluetooth_ne=0x7f05001b;
-        public static final int toast_bluetooth_timeout=0x7f05001c;
+        public static final int action_settings=0x7f060000;
+        public static final int app_name=0x7f060001;
+        public static final int button_calibrate=0x7f060002;
+        public static final int button_connect_bluetooth=0x7f060003;
+        public static final int button_disconnect_bluetooth=0x7f060004;
+        public static final int button_enable_bluetooth=0x7f060005;
+        public static final int button_monitor=0x7f060006;
+        public static final int button_scan_bluetooth=0x7f060007;
+        public static final int button_stop_calibrate=0x7f060008;
+        public static final int button_stop_monitor=0x7f060009;
+        public static final int default_value_angle=0x7f06000a;
+        public static final int default_value_radius=0x7f06000b;
+        public static final int default_value_url=0x7f06000c;
+        public static final int key_angle=0x7f06000d;
+        public static final int key_radius=0x7f06000e;
+        public static final int key_url=0x7f06000f;
+        public static final int setting_angle=0x7f060010;
+        public static final int setting_radius=0x7f060011;
+        public static final int setting_url=0x7f060012;
+        public static final int text_no_divice=0x7f060013;
+        public static final int text_status_connected=0x7f060014;
+        public static final int text_status_connecting=0x7f060015;
+        public static final int text_status_not_paired=0x7f060026;
+        public static final int text_status_paired=0x7f060016;
+        public static final int title_device_list=0x7f060017;
+        public static final int toast_bluetooth_cal_start=0x7f060018;
+        public static final int toast_bluetooth_cal_start_fail=0x7f060019;
+        public static final int toast_bluetooth_cal_stop=0x7f06001a;
+        public static final int toast_bluetooth_cal_stop_fail=0x7f06001b;
+        public static final int toast_bluetooth_connect_fail=0x7f06001c;
+        public static final int toast_bluetooth_connect_lost=0x7f06001d;
+        public static final int toast_bluetooth_connected=0x7f06001e;
+        public static final int toast_bluetooth_connecting=0x7f06001f;
+        public static final int toast_bluetooth_data_invalid=0x7f060020;
+        public static final int toast_bluetooth_disconnect=0x7f060021;
+        public static final int toast_bluetooth_nav=0x7f060022;
+        public static final int toast_bluetooth_nd=0x7f060023;
+        public static final int toast_bluetooth_ne=0x7f060024;
+        public static final int toast_bluetooth_timeout=0x7f060025;
     }
     public static final class style {
         /** 
@@ -78,9 +87,12 @@ public final class R {
  API 11 theme customizations can go here. 
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f060000;
+        public static final int AppBaseTheme=0x7f070000;
         /**  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f060001;
+        public static final int AppTheme=0x7f070001;
+    }
+    public static final class xml {
+        public static final int preferences=0x7f040000;
     }
 }

@@ -19,19 +19,23 @@
     <list default="true" id="f574a0dd-24cf-4d19-b3bd-4e5ef2dd7776" name="Default" comment="" />
     <ignored path="BluetoothControl.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/MainActivity.java" changelist="f574a0dd-24cf-4d19-b3bd-4e5ef2dd7776" time="1371875490839" ignored="false" />
-    <file path="$PROJECT_DIR$/BluetoothControl/build/source/r/debug/com/ut50/bluetoothcontrol/R.java" changelist="f574a0dd-24cf-4d19-b3bd-4e5ef2dd7776" time="1371818472913" ignored="false" />
+    <file path="/MainActivity.java" changelist="f574a0dd-24cf-4d19-b3bd-4e5ef2dd7776" time="1372224723687" ignored="false" />
+    <file path="$PROJECT_DIR$/BluetoothControl/build/source/r/debug/com/ut50/bluetoothcontrol/R.java" changelist="f574a0dd-24cf-4d19-b3bd-4e5ef2dd7776" time="1372225883260" ignored="false" />
     <file path="/fragment.java" changelist="f574a0dd-24cf-4d19-b3bd-4e5ef2dd7776" time="1371713329753" ignored="false" />
     <file path="/BluetoothService.java" changelist="f574a0dd-24cf-4d19-b3bd-4e5ef2dd7776" time="1371873775988" ignored="false" />
-    <file path="/strings.xml" changelist="f574a0dd-24cf-4d19-b3bd-4e5ef2dd7776" time="1371828726101" ignored="false" />
+    <file path="/strings.xml" changelist="f574a0dd-24cf-4d19-b3bd-4e5ef2dd7776" time="1372225859246" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/sdk/samples/android-17/BluetoothChat/gen/com/example/android/BluetoothChat/BuildConfig.java" changelist="f574a0dd-24cf-4d19-b3bd-4e5ef2dd7776" time="1371788667451" ignored="false" />
-    <file path="/Dummy.txt" changelist="f574a0dd-24cf-4d19-b3bd-4e5ef2dd7776" time="1371783272916" ignored="false" />
+    <file path="/Dummy.txt" changelist="f574a0dd-24cf-4d19-b3bd-4e5ef2dd7776" time="1372213633972" ignored="false" />
     <file path="/device_list.xml" changelist="f574a0dd-24cf-4d19-b3bd-4e5ef2dd7776" time="1371783134999" ignored="false" />
     <file path="/DeviceListActivity.java" changelist="f574a0dd-24cf-4d19-b3bd-4e5ef2dd7776" time="1371783484401" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/sdk/samples/android-17/BluetoothChat/gen/com/example/android/BluetoothChat/R.java" changelist="f574a0dd-24cf-4d19-b3bd-4e5ef2dd7776" time="1371788645826" ignored="false" />
     <file path="$PROJECT_DIR$/BluetoothControl/build/res/all/debug/layout/activity_main.xml" changelist="f574a0dd-24cf-4d19-b3bd-4e5ef2dd7776" time="1371800185056" ignored="false" />
     <file path="E:/BaiduMap_AndroidSDK_v2.1.2_Sample/src/baidumapsdk/demo/DemoApplication.java" changelist="f574a0dd-24cf-4d19-b3bd-4e5ef2dd7776" time="1371877974349" ignored="false" />
-    <file path="/BackendService.java" changelist="f574a0dd-24cf-4d19-b3bd-4e5ef2dd7776" time="1372085024401" ignored="false" />
+    <file path="/BackendService.java" changelist="f574a0dd-24cf-4d19-b3bd-4e5ef2dd7776" time="1372224468103" ignored="false" />
+    <file path="/PreferenceManager.java" changelist="f574a0dd-24cf-4d19-b3bd-4e5ef2dd7776" time="1372214816416" ignored="false" />
+    <file path="$PROJECT_DIR$/../PPK/src/com/ut50/ppk/PreferenceManager.java" changelist="f574a0dd-24cf-4d19-b3bd-4e5ef2dd7776" time="1372212182809" ignored="false" />
+    <file path="/preferences.xml" changelist="f574a0dd-24cf-4d19-b3bd-4e5ef2dd7776" time="1372214067867" ignored="false" />
+    <file path="/activity_main.xml" changelist="f574a0dd-24cf-4d19-b3bd-4e5ef2dd7776" time="1372222540053" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +50,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
@@ -83,7 +88,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -92,7 +96,127 @@
     <favorites_list name="BluetoothControl" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BluetoothControl/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="0" selection-start="2016" selection-end="2158" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SettingActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BluetoothControl/src/main/java/com/ut50/bluetoothcontrol/SettingActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="1" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BluetoothControl/src/main/java/com/ut50/bluetoothcontrol/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="467" column="26" selection-start="20061" selection-end="20061" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4542#4546#0" expanded="true" />
+                <element signature="e#5390#5394#0" expanded="true" />
+                <element signature="e#7918#7922#0" expanded="true" />
+                <element signature="e#8297#8301#0" expanded="true" />
+                <element signature="e#8652#8688#0" expanded="true" />
+                <element signature="e#10329#10362#0" expanded="true" />
+                <element signature="e#10837#10860#0" expanded="true" />
+                <element signature="e#11254#11282#0" expanded="true" />
+                <element signature="e#13394#13398#0" expanded="true" />
+                <element signature="e#13575#13579#0" expanded="true" />
+                <element signature="e#13738#13768#0" expanded="true" />
+                <element signature="e#14170#14174#0" expanded="true" />
+                <element signature="e#14353#14357#0" expanded="true" />
+                <element signature="e#14458#14483#0" expanded="true" />
+                <element signature="e#14701#14726#0" expanded="true" />
+                <element signature="e#15670#15693#0" expanded="true" />
+                <element signature="e#15971#15994#0" expanded="true" />
+                <element signature="e#16268#16291#0" expanded="true" />
+                <element signature="e#17479#17502#0" expanded="true" />
+                <element signature="e#18598#18621#0" expanded="true" />
+                <element signature="e#19001#19024#0" expanded="true" />
+                <element signature="e#19480#19513#0" expanded="true" />
+                <element signature="e#19551#19574#0" expanded="true" />
+                <element signature="e#19873#19906#0" expanded="true" />
+                <element signature="e#19944#19967#0" expanded="true" />
+                <element signature="e#20783#20806#0" expanded="true" />
+                <element signature="e#21190#21215#0" expanded="true" />
+                <element signature="e#21456#21481#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BackendService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BluetoothControl/src/main/java/com/ut50/bluetoothcontrol/BackendService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="132" column="43" selection-start="4217" selection-end="4217" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#2345#2381#0" expanded="true" />
+                <element signature="e#2383#2429#0" expanded="true" />
+                <element signature="e#2482#2521#0" expanded="true" />
+                <element signature="e#2523#2572#0" expanded="true" />
+                <element signature="e#2700#2749#0" expanded="true" />
+                <element signature="e#2815#2853#0" expanded="true" />
+                <element signature="e#2855#2903#0" expanded="true" />
+                <element signature="e#3027#3075#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BluetoothControl/src/main/res/values-zh/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="65" selection-start="851" selection-end="851" vertical-scroll-proportion="0.4257703">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BluetoothControl/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="76" selection-start="1074" selection-end="1074" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#708#726#0" expanded="true" />
+                <element signature="e#879#897#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BluetoothControl/src/main/res/layout/activity_main.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="0" selection-start="512" selection-end="512" vertical-scroll-proportion="-7.6">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BluetoothService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BluetoothControl/src/main/java/com/ut50/bluetoothcontrol/BluetoothService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="102" column="8" selection-start="3692" selection-end="3692" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -102,24 +226,28 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/BluetoothControl/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/BluetoothControl/src/main/res/layout/device_name.xml" />
         <option value="$PROJECT_DIR$/BluetoothControl/src/main/java/com/ut50/bluetoothcontrol/DeviceListActivity.java" />
         <option value="$PROJECT_DIR$/BluetoothControl/src/main/res/layout/device_list.xml" />
-        <option value="$PROJECT_DIR$/BluetoothControl/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/BluetoothControl/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/BluetoothControl/src/main/res/values-zh/strings.xml" />
         <option value="$PROJECT_DIR$/BluetoothControl/src/main/java/com/ut50/bluetoothcontrol/BluetoothService.java" />
-        <option value="$PROJECT_DIR$/BluetoothControl/src/main/java/com/ut50/bluetoothcontrol/MainActivity.java" />
+        <option value="$PROJECT_DIR$/BluetoothControl/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/BluetoothControl/src/main/res/xml/preferences.xml" />
+        <option value="$PROJECT_DIR$/BluetoothControl/src/main/java/com/ut50/bluetoothcontrol/SettingFragment.java" />
+        <option value="$PROJECT_DIR$/BluetoothControl/src/main/java/com/ut50/bluetoothcontrol/SettingActivity.java" />
+        <option value="$PROJECT_DIR$/BluetoothControl/src/main/java/com/ut50/bluetoothcontrol/PreferenceManager.java" />
+        <option value="$PROJECT_DIR$/BluetoothControl/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/BluetoothControl/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/BluetoothControl/src/main/java/com/ut50/bluetoothcontrol/BackendService.java" />
+        <option value="$PROJECT_DIR$/BluetoothControl/src/main/java/com/ut50/bluetoothcontrol/MainActivity.java" />
+        <option value="$PROJECT_DIR$/BluetoothControl/src/main/res/values-zh/strings.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="1358" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -147,7 +275,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -228,6 +355,182 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BluetoothControl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BluetoothControlProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BluetoothControl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values-zh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BluetoothControl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BluetoothControlProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BluetoothControl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BluetoothControl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BluetoothControlProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BluetoothControl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BluetoothControl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BluetoothControlProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BluetoothControl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="menu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BluetoothControl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BluetoothControlProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BluetoothControl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BluetoothControl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BluetoothControlProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BluetoothControl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -239,6 +542,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -247,8 +551,8 @@
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="reference.idesettings.debugger.groovy" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PPK" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="021UFF7N2A007188" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="LG-F160L-d2479e" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="AVD_for_Galaxy_Nexus" />
@@ -430,38 +734,40 @@
       <workItem from="1371827786463" duration="1249000" />
       <workItem from="1371872629101" duration="5840000" />
       <workItem from="1372082811280" duration="1989000" />
+      <workItem from="1372211978192" duration="3198000" />
+      <workItem from="1372217232883" duration="6713000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40539000" />
+    <option name="totallyTimeSpent" value="50450000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <frame x="1358" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32604057" sideWeight="0.7889126" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32604057" sideWeight="0.7889126" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5285235" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34541577" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32718122" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.67114097" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20681818" sideWeight="0.4714765" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21140939" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32651514" sideWeight="0.7885906" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1456777" sideWeight="0.7889126" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21108742" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32651514" sideWeight="0.7885906" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -553,55 +859,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/widget/Toast.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="90" selection-start="1395" selection-end="1400" vertical-scroll-proportion="0.6247756" />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/os/Parcel.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="22" selection-start="1861" selection-end="1861" vertical-scroll-proportion="0.3313253" />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/bluetooth/BluetoothAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="0" selection-start="3618" selection-end="3618" vertical-scroll-proportion="0.45152354" />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/app/Instrumentation.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="16" selection-start="6187" selection-end="6187" vertical-scroll-proportion="0.33248731" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BluetoothControl/src/main/res/layout/device_name.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="10" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0" />
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BluetoothControl/src/main/res/layout/device_list.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="49" selection-start="206" selection-end="206" vertical-scroll-proportion="0.16473988" />
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/java/lang/String.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="11" selection-start="590" selection-end="590" vertical-scroll-proportion="0.33239833" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BluetoothControl/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="text-editor">
-        <state line="10" column="11" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/content/Intent.class">
@@ -618,46 +878,136 @@
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/os/Handler.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="96" selection-start="1189" selection-end="1195" vertical-scroll-proportion="0.0">
+        <state line="29" column="96" selection-start="1189" selection-end="1195" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BluetoothControl/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BluetoothControl/src/main/res/menu/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="244" selection-end="244" vertical-scroll-proportion="0.2">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BluetoothControl/src/main/java/com/ut50/bluetoothcontrol/SettingActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="1" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BluetoothControl/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="76" selection-start="1074" selection-end="1074" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#708#726#0" expanded="true" />
+            <element signature="e#879#897#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BluetoothControl/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="512" selection-end="512" vertical-scroll-proportion="-7.6">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BluetoothControl/src/main/res/xml/preferences.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="49" selection-start="602" selection-end="602" vertical-scroll-proportion="0.39915967">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BluetoothControl/src/main/java/com/ut50/bluetoothcontrol/BluetoothService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="8" selection-start="3692" selection-end="3692" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/location/LocationManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="78" selection-start="2041" selection-end="2048" vertical-scroll-proportion="0.49500713">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BluetoothControl/src/main/java/com/ut50/bluetoothcontrol/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="55" selection-start="1309" selection-end="1309" vertical-scroll-proportion="0.0">
+        <state line="467" column="26" selection-start="20061" selection-end="20061" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#4542#4546#0" expanded="true" />
+            <element signature="e#5390#5394#0" expanded="true" />
+            <element signature="e#7918#7922#0" expanded="true" />
+            <element signature="e#8297#8301#0" expanded="true" />
+            <element signature="e#8652#8688#0" expanded="true" />
+            <element signature="e#10329#10362#0" expanded="true" />
+            <element signature="e#10837#10860#0" expanded="true" />
+            <element signature="e#11254#11282#0" expanded="true" />
+            <element signature="e#13394#13398#0" expanded="true" />
+            <element signature="e#13575#13579#0" expanded="true" />
+            <element signature="e#13738#13768#0" expanded="true" />
+            <element signature="e#14170#14174#0" expanded="true" />
+            <element signature="e#14353#14357#0" expanded="true" />
+            <element signature="e#14458#14483#0" expanded="true" />
+            <element signature="e#14701#14726#0" expanded="true" />
+            <element signature="e#15670#15693#0" expanded="true" />
+            <element signature="e#15971#15994#0" expanded="true" />
+            <element signature="e#16268#16291#0" expanded="true" />
+            <element signature="e#17479#17502#0" expanded="true" />
+            <element signature="e#18598#18621#0" expanded="true" />
+            <element signature="e#19001#19024#0" expanded="true" />
+            <element signature="e#19480#19513#0" expanded="true" />
+            <element signature="e#19551#19574#0" expanded="true" />
+            <element signature="e#19873#19906#0" expanded="true" />
+            <element signature="e#19944#19967#0" expanded="true" />
+            <element signature="e#20783#20806#0" expanded="true" />
+            <element signature="e#21190#21215#0" expanded="true" />
+            <element signature="e#21456#21481#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BluetoothControl/src/main/java/com/ut50/bluetoothcontrol/BackendService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="5" selection-start="817" selection-end="817" vertical-scroll-proportion="0.8">
+        <state line="132" column="43" selection-start="4217" selection-end="4217" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2345#2381#0" expanded="true" />
+            <element signature="e#2383#2429#0" expanded="true" />
+            <element signature="e#2482#2521#0" expanded="true" />
+            <element signature="e#2523#2572#0" expanded="true" />
+            <element signature="e#2700#2749#0" expanded="true" />
+            <element signature="e#2815#2853#0" expanded="true" />
+            <element signature="e#2855#2903#0" expanded="true" />
+            <element signature="e#3027#3075#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BluetoothControl/src/main/java/com/ut50/bluetoothcontrol/BluetoothService.java">
+    <entry file="file://$PROJECT_DIR$/BluetoothControl/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="1314" selection-end="1415" vertical-scroll-proportion="0.53333336">
+        <state line="38" column="0" selection-start="2016" selection-end="2158" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BluetoothControl/src/main/res/values-zh/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="48" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.26666668">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BluetoothControl/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="1114" selection-end="1271" vertical-scroll-proportion="0.26666668">
+        <state line="16" column="65" selection-start="851" selection-end="851" vertical-scroll-proportion="0.4257703">
           <folding />
         </state>
       </provider>

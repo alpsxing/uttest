@@ -14,6 +14,15 @@
     <string name="button_scan_bluetooth">Scan Devices</string>
     <string name="button_stop_calibrate">Stop Cal.</string>
     <string name="button_stop_monitor">Stop Monitor</string>
+    <string name="default_value_angle">60.0</string>
+    <string name="default_value_radius">50.0</string>
+    <string name="default_value_url">ppk001.sinaapp.com</string>
+    <string name="key_angle">Angle</string>
+    <string name="key_radius">Radius</string>
+    <string name="key_url">url</string>
+    <string name="setting_angle">Angle</string>
+    <string name="setting_radius">Radius</string>
+    <string name="setting_url">URL</string>
     <string name="text_no_divice">No device found</string>
     <string name="text_status_connected">Connected</string>
     <string name="text_status_connecting">Connecting</string>

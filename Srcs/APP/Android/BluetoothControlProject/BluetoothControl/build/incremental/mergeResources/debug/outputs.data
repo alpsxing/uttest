@@ -1,15 +1,16 @@
 # incremental data. DO NOT EDIT.
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
-1371828991653 1935 07f5ae22f07de6030c12901aa1585316f477121c D:\Github\uttest\Srcs\APP\Android\BluetoothControlProject\BluetoothControl\build\res\all\debug\values-zh\values.xml
-1371800176157 2906 584ad09e2ff01bd4f3ad2f4a6b51808f8ec7cf7b D:\Github\uttest\Srcs\APP\Android\BluetoothControlProject\BluetoothControl\build\res\all\debug\layout\activity_main.xml
+1372225875219 2093 f3d0afb5bff3a2ae2704c54059cb85db15531869 D:\Github\uttest\Srcs\APP\Android\BluetoothControlProject\BluetoothControl\build\res\all\debug\values-zh\values.xml
+1372222555259 2938 c12152691023f503d574aae945fc57ec484f1549 D:\Github\uttest\Srcs\APP\Android\BluetoothControlProject\BluetoothControl\build\res\all\debug\layout\activity_main.xml
 1371789067357 848 3e771c33e03f71a10b60a401e0bbe1f29f4d33cf D:\Github\uttest\Srcs\APP\Android\BluetoothControlProject\BluetoothControl\build\res\all\debug\layout\device_list.xml
 1371273115958 24654 696bbbc63d2250ef7d3373f2d602e604acd13d8c D:\Github\uttest\Srcs\APP\Android\BluetoothControlProject\BluetoothControl\build\res\all\debug\drawable-xxhdpi\ic_launcher.png
 1371273115964 224 3bee0d9a6f0efbaf11495ad45fdeb8f71aee62e8 D:\Github\uttest\Srcs\APP\Android\BluetoothControlProject\BluetoothControl\build\res\all\debug\values-v14\values.xml
-1371828991645 2639 c0beca32397f751306683fe4e4aa1c31e14aa9c1 D:\Github\uttest\Srcs\APP\Android\BluetoothControlProject\BluetoothControl\build\res\all\debug\values\values.xml
+1372215012534 3092 f1c680f5c44a87a64a4d27b58901e6ed484046ac D:\Github\uttest\Srcs\APP\Android\BluetoothControlProject\BluetoothControl\build\res\all\debug\values\values.xml
 1371273115958 3769 eec07752d40e268ed7f4a1730acc77ab1e40aeb0 D:\Github\uttest\Srcs\APP\Android\BluetoothControlProject\BluetoothControl\build\res\all\debug\drawable-mdpi\ic_launcher.png
 1371273115958 7721 39b0f5a0570da92f471225402ad0ea6de30bf2be D:\Github\uttest\Srcs\APP\Android\BluetoothControlProject\BluetoothControl\build\res\all\debug\drawable-hdpi\ic_launcher.png
 1371788737343 285 cbbc5b0cf91c13cb7c0bd0b0d52c004492b5493e D:\Github\uttest\Srcs\APP\Android\BluetoothControlProject\BluetoothControl\build\res\all\debug\layout\device_name.xml
+1372215012511 705 cd2749a181bad6012946e599be7b09832679a358 D:\Github\uttest\Srcs\APP\Android\BluetoothControlProject\BluetoothControl\build\res\all\debug\xml\preferences.xml
 1371273115966 210 c41731f5631a90fa989588ef97e9476fc244b438 D:\Github\uttest\Srcs\APP\Android\BluetoothControlProject\BluetoothControl\build\res\all\debug\values-v11\values.xml
 1371273115959 244 045ff451db7cd8e61285502b8c9bbf7405f2078d D:\Github\uttest\Srcs\APP\Android\BluetoothControlProject\BluetoothControl\build\res\all\debug\menu\main.xml
 1371273115970 130 90e37035f35f83953c491e73e930b7aea297a472 D:\Github\uttest\Srcs\APP\Android\BluetoothControlProject\BluetoothControl\build\res\all\debug\values-sw720dp-land\values.xml

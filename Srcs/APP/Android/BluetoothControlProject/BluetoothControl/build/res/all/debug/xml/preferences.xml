@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+            android:key="@string/key_url"
+            android:title="@string/setting_url"
+            android:defaultValue="@string/default_value_url" />
+
+    <EditTextPreference
+            android:key="@string/key_radius"
+            android:title="@string/setting_radius"
+            android:defaultValue="@string/default_value_radius" />
+
+    <EditTextPreference
+            android:key="@string/key_angle"
+            android:title="@string/setting_angle"
+            android:defaultValue="@string/default_value_angle" />
+</PreferenceScreen>

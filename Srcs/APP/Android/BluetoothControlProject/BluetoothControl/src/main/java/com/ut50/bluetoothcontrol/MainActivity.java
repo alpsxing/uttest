@@ -4,13 +4,18 @@ import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.content.ComponentName;
+import android.content.Context;
 import android.content.Intent;
+import android.location.Location;
+import android.location.LocationListener;
+import android.location.LocationManager;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
@@ -39,6 +44,7 @@ public class MainActivity extends Activity {
     private static final int REQUEST_ENABLE_BT = 1;
     private static final int REQUEST_CHOOSE_DEVICE = 2;
     private static final int REQUEST_SCAN_DEVICE = 3;
+    private static final int REQUEST_SETTING = 4;
 
     private static final int STAGE_BLUETOOTH_DISABLED = 1;
     private static final int STAGE_BLUETOOTH_NO_DEVICE = 2;
@@ -65,6 +71,8 @@ public class MainActivity extends Activity {
     private BluetoothAdapter mBluetoothAdapter;
     private BluetoothDevice m_device = null;
     private BluetoothService mBluetoothService;
+
+    private BackendService mBackendService;
 
     private Button mButtonEnableBluetooth;
     private Button mButtonScanBluetooth;
@@ -108,6 +116,7 @@ public class MainActivity extends Activity {
 
         mBluetoothService = new BluetoothService(this, mHandler);
         setButtonState(STAGE_BLUETOOTH_PENDING);
+        mBackendService = new BackendService(this);
     }
 
     @Override
@@ -127,12 +136,18 @@ public class MainActivity extends Activity {
                 Toast.makeText(this, R.string.toast_bluetooth_nd, Toast.LENGTH_LONG).show();
             }
         }
+        LocationManager locationManager = (LocationManager)getSystemService(Context.LOCATION_SERVICE);
+        locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 5000, 5, locationListener);
+        locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 5000, 5, locationListener);
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
         mBluetoothService.stop();
+        LocationManager locationManager = (LocationManager)getSystemService(Context.LOCATION_SERVICE);
+        locationManager.removeUpdates(locationListener);
+
     }
 
     @Override
@@ -156,6 +171,19 @@ public class MainActivity extends Activity {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle item selection
+        switch (item.getItemId()) {
+            case R.id.action_settings:
+                Intent intent = new Intent(this, SettingActivity.class);
+                startActivityForResult(intent, REQUEST_SETTING);
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -191,6 +219,9 @@ public class MainActivity extends Activity {
                     connectDevice(data);
                     mButtonConnectBluetooth.setText(R.string.button_disconnect_bluetooth);
                 }
+                break;
+            case REQUEST_SETTING:
+                mBackendService.update();
                 break;
         }
     }
@@ -231,6 +262,7 @@ public class MainActivity extends Activity {
                     setProgressBarIndeterminateVisibility(false);
                     mTextResult.setVisibility(View.INVISIBLE);
                     mButtonMonitor.setText(R.string.button_monitor);
+                    mBackendService.Stop();
                     mTimer.cancel();
                 }
                 else {
@@ -239,6 +271,7 @@ public class MainActivity extends Activity {
                     mTextResult.setVisibility(View.VISIBLE);
                     mResultLen = 0;
                     mButtonMonitor.setText(R.string.button_stop_monitor);
+                    mBackendService.Start();
                     monitor();
                 }
             }
@@ -287,6 +320,7 @@ public class MainActivity extends Activity {
         float degree = 0.0f;
         degree  = (mResult[2] - 0x30) * 100 + (mResult[3] - 0x30) * 10 + (mResult[4] - 0x30) + (mResult[6] - 0x30) / 10.0f;
         mTextResult.setText(Float.toString(degree));
+        mBackendService.updateDir(degree);
     }
 
     private void startCalibration() {
@@ -317,16 +351,16 @@ public class MainActivity extends Activity {
         if((mResult[2] != 0x30) || (mResult[3] != 0x30) || (mResult[4] != 0x30)) {
             setProgressBarIndeterminateVisibility(false);
             Toast.makeText(this, R.string.toast_bluetooth_cal_stop_fail, Toast.LENGTH_LONG).show();
-            setButtonState(STAGE_BLUETOOTH_CONNECTED);
         }
         else {
             setProgressBarIndeterminateVisibility(false);
             Toast.makeText(this, R.string.toast_bluetooth_cal_stop, Toast.LENGTH_LONG).show();
-            setButtonState(STAGE_BLUETOOTH_CONNECTED);
             mButtonCalibrate.setText(R.string.button_calibrate);
             mTextResult.setVisibility(View.VISIBLE);
             mTextResult.setText("CAL: " + Integer.toString(level));
         }
+        setButtonState(STAGE_BLUETOOTH_CONNECTED);
+        mButtonCalibrate.setText(R.string.button_calibrate);
     }
 
     private boolean isResultValid() {
@@ -435,6 +469,19 @@ public class MainActivity extends Activity {
             }
         }
     };
+
+    LocationListener locationListener = new LocationListener() {
+        public void onLocationChanged(Location location) {
+            mBackendService.updateLoc(location.getLongitude(), location.getLatitude());
+        }
+
+        public void onStatusChanged(String provider, int status, Bundle extras) {}
+
+        public void onProviderEnabled(String provider) {}
+
+        public void onProviderDisabled(String provider) {}
+    };
+
 
     private final CountDownTimer mTimer = new CountDownTimer(COUNT_DOWN_TIME, COUNT_DOWN_STEP) {
         @Override

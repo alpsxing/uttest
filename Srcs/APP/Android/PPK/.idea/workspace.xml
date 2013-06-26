@@ -10,20 +10,20 @@
     <ignored path="PPK.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.java" changelist="37911a93-89d2-4a67-b194-b9200f130578" time="1371713329753" ignored="false" />
-    <file path="$PROJECT_DIR$/../BluetoothControlProject/BluetoothControl/src/main/AndroidManifest.xml" changelist="37911a93-89d2-4a67-b194-b9200f130578" time="1371783006891" ignored="false" />
-    <file path="$PROJECT_DIR$/../BluetoothControlProject/BluetoothControl/src/main/java/com/ut50/bluetoothcontrol/MainActivity.java" changelist="37911a93-89d2-4a67-b194-b9200f130578" time="1371800508895" ignored="false" />
-    <file path="/MainActivity.java" changelist="37911a93-89d2-4a67-b194-b9200f130578" time="1371800481879" ignored="false" />
-    <file path="$PROJECT_DIR$/../BluetoothControlProject/BluetoothControl/build/source/r/debug/com/ut50/bluetoothcontrol/R.java" changelist="37911a93-89d2-4a67-b194-b9200f130578" time="1371800185049" ignored="false" />
+    <file path="$PROJECT_DIR$/../BluetoothControlProject/BluetoothControl/src/main/AndroidManifest.xml" changelist="37911a93-89d2-4a67-b194-b9200f130578" time="1372222748425" ignored="false" />
+    <file path="$PROJECT_DIR$/../BluetoothControlProject/BluetoothControl/src/main/java/com/ut50/bluetoothcontrol/MainActivity.java" changelist="37911a93-89d2-4a67-b194-b9200f130578" time="1372224724838" ignored="false" />
+    <file path="/MainActivity.java" changelist="37911a93-89d2-4a67-b194-b9200f130578" time="1372224723687" ignored="false" />
+    <file path="$PROJECT_DIR$/../BluetoothControlProject/BluetoothControl/build/source/r/debug/com/ut50/bluetoothcontrol/R.java" changelist="37911a93-89d2-4a67-b194-b9200f130578" time="1372224783095" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/sdk/samples/android-17/BluetoothChat/src/com/example/android/BluetoothChat/BluetoothChatService.java" changelist="37911a93-89d2-4a67-b194-b9200f130578" time="1371482715060" ignored="false" />
     <file path="$PROJECT_DIR$/../BluetoothControlProject/BluetoothControl/src/main/java/com/ut50/bluetoothcontrol/BluetoothService.java" changelist="37911a93-89d2-4a67-b194-b9200f130578" time="1371791549262" ignored="false" />
     <file path="/BluetoothService.java" changelist="37911a93-89d2-4a67-b194-b9200f130578" time="1371791054986" ignored="false" />
-    <file path="$PROJECT_DIR$/../BluetoothControlProject/BluetoothControl/src/main/res/values-zh/strings.xml" changelist="37911a93-89d2-4a67-b194-b9200f130578" time="1371800461020" ignored="false" />
-    <file path="/strings.xml" changelist="37911a93-89d2-4a67-b194-b9200f130578" time="1371800461020" ignored="false" />
-    <file path="$PROJECT_DIR$/../BluetoothControlProject/BluetoothControl/src/main/res/values/strings.xml" changelist="37911a93-89d2-4a67-b194-b9200f130578" time="1371800432486" ignored="false" />
+    <file path="$PROJECT_DIR$/../BluetoothControlProject/BluetoothControl/src/main/res/values-zh/strings.xml" changelist="37911a93-89d2-4a67-b194-b9200f130578" time="1372225859246" ignored="false" />
+    <file path="/strings.xml" changelist="37911a93-89d2-4a67-b194-b9200f130578" time="1372225859246" ignored="false" />
+    <file path="$PROJECT_DIR$/../BluetoothControlProject/BluetoothControl/src/main/res/values/strings.xml" changelist="37911a93-89d2-4a67-b194-b9200f130578" time="1372213908381" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/sdk/samples/android-17/BluetoothChat/gen/com/example/android/BluetoothChat/BuildConfig.java" changelist="37911a93-89d2-4a67-b194-b9200f130578" time="1371788667451" ignored="false" />
-    <file path="$PROJECT_DIR$/../BluetoothControlProject/BluetoothControl/src/main/res/layout/activity_main.xml" changelist="37911a93-89d2-4a67-b194-b9200f130578" time="1371799795903" ignored="false" />
+    <file path="$PROJECT_DIR$/../BluetoothControlProject/BluetoothControl/src/main/res/layout/activity_main.xml" changelist="37911a93-89d2-4a67-b194-b9200f130578" time="1372222540390" ignored="false" />
     <file path="$PROJECT_DIR$/../BluetoothControlProject/BluetoothControl/src/main/java/com/ut50/bluetoothcontrol/DeviceListActivity.java" changelist="37911a93-89d2-4a67-b194-b9200f130578" time="1371783573811" ignored="false" />
-    <file path="/Dummy.txt" changelist="37911a93-89d2-4a67-b194-b9200f130578" time="1371783272916" ignored="false" />
+    <file path="/Dummy.txt" changelist="37911a93-89d2-4a67-b194-b9200f130578" time="1372213633972" ignored="false" />
     <file path="$PROJECT_DIR$/../BluetoothControlProject/BluetoothControl/src/main/res/layout/device_list.xml" changelist="37911a93-89d2-4a67-b194-b9200f130578" time="1371789052859" ignored="false" />
     <file path="/device_list.xml" changelist="37911a93-89d2-4a67-b194-b9200f130578" time="1371783134999" ignored="false" />
     <file path="/DeviceListActivity.java" changelist="37911a93-89d2-4a67-b194-b9200f130578" time="1371783484401" ignored="false" />
@@ -31,8 +31,15 @@
     <file path="$APPLICATION_HOME_DIR$/sdk/samples/android-17/BluetoothChat/gen/com/example/android/BluetoothChat/R.java" changelist="37911a93-89d2-4a67-b194-b9200f130578" time="1371788645826" ignored="false" />
     <file path="$PROJECT_DIR$/../BluetoothControlProject/BluetoothControl/build/res/all/debug/layout/activity_main.xml" changelist="37911a93-89d2-4a67-b194-b9200f130578" time="1371800185049" ignored="false" />
     <file path="$PROJECT_DIR$/../BluetoothControlProject/BluetoothControl/src/main/java/com/ut50/bluetoothcontrol/BackendThread.java" changelist="37911a93-89d2-4a67-b194-b9200f130578" time="1372083824133" ignored="false" />
-    <file path="$PROJECT_DIR$/../BluetoothControlProject/BluetoothControl/src/main/java/com/ut50/bluetoothcontrol/BackendService.java" changelist="37911a93-89d2-4a67-b194-b9200f130578" time="1372085086471" ignored="false" />
-    <file path="/BackendService.java" changelist="37911a93-89d2-4a67-b194-b9200f130578" time="1372085024401" ignored="false" />
+    <file path="$PROJECT_DIR$/../BluetoothControlProject/BluetoothControl/src/main/java/com/ut50/bluetoothcontrol/BackendService.java" changelist="37911a93-89d2-4a67-b194-b9200f130578" time="1372224481224" ignored="false" />
+    <file path="/BackendService.java" changelist="37911a93-89d2-4a67-b194-b9200f130578" time="1372224468103" ignored="false" />
+    <file path="$PROJECT_DIR$/../BluetoothControlProject/BluetoothControl/src/main/java/com/ut50/bluetoothcontrol/PreferenceManager.java" changelist="37911a93-89d2-4a67-b194-b9200f130578" time="1372214816412" ignored="false" />
+    <file path="/PreferenceManager.java" changelist="37911a93-89d2-4a67-b194-b9200f130578" time="1372214816412" ignored="false" />
+    <file path="$PROJECT_DIR$/../BluetoothControlProject/BluetoothControl/src/main/res/xml/preferences.xml" changelist="37911a93-89d2-4a67-b194-b9200f130578" time="1372214077431" ignored="false" />
+    <file path="/preferences.xml" changelist="37911a93-89d2-4a67-b194-b9200f130578" time="1372214067867" ignored="false" />
+    <file path="$PROJECT_DIR$/../BluetoothControlProject/BluetoothControl/src/main/java/com/ut50/bluetoothcontrol/SettingFragment.java" changelist="37911a93-89d2-4a67-b194-b9200f130578" time="1372214202209" ignored="false" />
+    <file path="$PROJECT_DIR$/../BluetoothControlProject/BluetoothControl/src/main/java/com/ut50/bluetoothcontrol/SettingActivity.java" changelist="37911a93-89d2-4a67-b194-b9200f130578" time="1372214258288" ignored="false" />
+    <file path="/activity_main.xml" changelist="37911a93-89d2-4a67-b194-b9200f130578" time="1372222540052" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,37 +100,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/ut50/ppk/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="175" column="25" selection-start="5518" selection-end="5535" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FragmentNewActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ut50/ppk/FragmentNewActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="38" selection-start="831" selection-end="831" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BackendHelper.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/ut50/ppk/BackendHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="335" column="0" selection-start="10650" selection-end="11420" vertical-scroll-proportion="0.8666667">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomeActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ut50/ppk/HomeActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="42" selection-start="1070" selection-end="1070" vertical-scroll-proportion="0.0">
+            <state line="108" column="5" selection-start="3702" selection-end="3702" vertical-scroll-proportion="0.5">
               <folding />
             </state>
           </provider>
@@ -141,6 +121,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/ut50/ppk/EntryActivity.java" />
         <option value="$PROJECT_DIR$/src/com/ut50/ppk/PPKTabView.java" />
+        <option value="$PROJECT_DIR$/src/com/ut50/ppk/PreferenceManager.java" />
       </list>
     </option>
   </component>
@@ -224,7 +205,7 @@
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BluetoothControlProject" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
@@ -400,11 +381,13 @@
       <workItem from="1371780105144" duration="1477000" />
       <workItem from="1371788389825" duration="1237000" />
       <workItem from="1372082843326" duration="2270000" />
+      <workItem from="1372211863844" duration="1990000" />
+      <workItem from="1372217198084" duration="2808000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17829000" />
+    <option name="totallyTimeSpent" value="22627000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -422,7 +405,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24318182" sideWeight="0.67114097" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24318182" sideWeight="0.67114097" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -432,6 +415,29 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982457" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31543624" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982457" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24318182" sideWeight="0.67114097" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -494,23 +500,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/ut50/ppk/HomeActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="42" selection-start="1070" selection-end="1070" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ut50/ppk/EntryActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="32" selection-start="547" selection-end="547" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ut50/ppk/EntryActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="24" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ut50/ppk/EntryActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="31" selection-start="1127" selection-end="1127" vertical-scroll-proportion="0.0" />
@@ -541,13 +530,6 @@
         <state line="45" column="87" selection-start="1701" selection-end="1701" vertical-scroll-proportion="0.053370785" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="63" selection-start="480" selection-end="480" vertical-scroll-proportion="0.45721924">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ut50/ppk/EntryActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="59" selection-start="1098" selection-end="1098" vertical-scroll-proportion="0.53333336" />
@@ -562,28 +544,54 @@
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/org/apache/http/client/HttpClient.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="33" selection-start="341" selection-end="341" vertical-scroll-proportion="0.33213645">
+        <state line="11" column="33" selection-start="341" selection-end="341" vertical-scroll-proportion="0.33213645" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/content/Context.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="45" selection-start="222" selection-end="222" vertical-scroll-proportion="0.20466787" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="52" selection-start="2110" selection-end="2110" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ut50/ppk/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ut50/ppk/PreferenceManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="175" column="25" selection-start="5518" selection-end="5535" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="14" column="4" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#254#304#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ut50/ppk/FragmentNewActivity.java">
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="38" selection-start="831" selection-end="831" vertical-scroll-proportion="0.0">
+        <state line="6" column="4" selection-start="200" selection-end="262" vertical-scroll-proportion="0.1">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ut50/ppk/BackendHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="335" column="0" selection-start="10650" selection-end="11420" vertical-scroll-proportion="0.8666667">
+        <state line="61" column="97" selection-start="2588" selection-end="2677" vertical-scroll-proportion="0.033333335">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ut50/ppk/FragmentNewActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="38" selection-start="831" selection-end="831" vertical-scroll-proportion="0.033333335">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ut50/ppk/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="108" column="5" selection-start="3702" selection-end="3702" vertical-scroll-proportion="0.5">
           <folding />
         </state>
       </provider>
