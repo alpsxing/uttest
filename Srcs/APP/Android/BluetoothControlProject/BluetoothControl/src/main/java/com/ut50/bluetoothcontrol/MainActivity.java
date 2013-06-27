@@ -85,6 +85,8 @@ public class MainActivity extends Activity {
     private byte[] mResult = new byte[RESULT_LENGTH];
     private int mResultLen = 0;
 
+    private boolean mRestartFlag = false;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -123,22 +125,31 @@ public class MainActivity extends Activity {
     public void onStart() {
         super.onStart();
 
-        if (!mBluetoothAdapter.isEnabled()) {
-            setButtonState(STAGE_BLUETOOTH_DISABLED);
-            Intent enableBtIntent = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
-            startActivityForResult(enableBtIntent, REQUEST_ENABLE_BT);
-        }else {
-            if(isDeviceAvailable()) {
-                setButtonState(STAGE_BLUETOOTH_IDLE);
+        if(!mRestartFlag) {
+            if (!mBluetoothAdapter.isEnabled()) {
+                    setButtonState(STAGE_BLUETOOTH_DISABLED);
+                    Intent enableBtIntent = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
+                    startActivityForResult(enableBtIntent, REQUEST_ENABLE_BT);
+            }else {
+                if(isDeviceAvailable()) {
+                    setButtonState(STAGE_BLUETOOTH_IDLE);
+                }
+                else {
+                    setButtonState(STAGE_BLUETOOTH_NO_DEVICE);
+                    Toast.makeText(this, R.string.toast_bluetooth_nd, Toast.LENGTH_LONG).show();
+                }
             }
-            else {
-                setButtonState(STAGE_BLUETOOTH_NO_DEVICE);
-                Toast.makeText(this, R.string.toast_bluetooth_nd, Toast.LENGTH_LONG).show();
-            }
+
+            LocationManager locationManager = (LocationManager)getSystemService(Context.LOCATION_SERVICE);
+            locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 5000, 5, locationListener);
+            locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 5000, 5, locationListener);
         }
-        LocationManager locationManager = (LocationManager)getSystemService(Context.LOCATION_SERVICE);
-        locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 5000, 5, locationListener);
-        locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 5000, 5, locationListener);
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        mRestartFlag = true;
     }
 
     @Override
@@ -153,17 +164,6 @@ public class MainActivity extends Activity {
     @Override
     protected void onResume() {
         super.onResume();
-        if (!mBluetoothAdapter.isEnabled()) {
-            setButtonState(STAGE_BLUETOOTH_DISABLED);
-        }
-        else {
-            if(isDeviceAvailable()) {
-                setButtonState(STAGE_BLUETOOTH_IDLE);
-            }
-            else {
-                setButtonState(STAGE_BLUETOOTH_NO_DEVICE);
-            }
-        }
     }
 
     @Override
