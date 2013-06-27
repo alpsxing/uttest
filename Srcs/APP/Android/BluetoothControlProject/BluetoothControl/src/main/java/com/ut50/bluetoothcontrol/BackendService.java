@@ -29,6 +29,8 @@ public class BackendService {
     private float mDir;
     private float mRadius;
     private float mAngle;
+    private int mRefreshingInterval;
+    private int mOldRefreshingInterval;
     private Object mLock;
 
     private ReportThread mReportThread;
@@ -43,6 +45,8 @@ public class BackendService {
         mLng = 0.0f;
         mLat = 0.0f;
         mDir = 0.0f;
+        mOldRefreshingInterval= 0;
+        mRefreshingInterval = 0;
     }
 
     public synchronized void Start() {
@@ -78,6 +82,7 @@ public class BackendService {
 
     public void update() {
         synchronized (mLock) {
+            String oldUrl = mUrl;
             SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(mContext);
             mUrl = sharedPref.getString(mContext.getString(R.string.key_url), mContext.getString(R.string.default_value_url));
 
@@ -91,6 +96,16 @@ public class BackendService {
             mAngle = Float.parseFloat(angle);
             if(mAngle <= 0.0f) {
                 mAngle = Float.parseFloat(mContext.getString(R.string.default_value_angle));
+            }
+
+            String refreshingInterval = sharedPref.getString(mContext.getString(R.string.key_refreshing_interval), mContext.getString(R.string.default_value_refreshing_interval));
+            mOldRefreshingInterval = mRefreshingInterval;
+            mRefreshingInterval = Integer.parseInt(refreshingInterval);
+            if(mRefreshingInterval <= 0) {
+                mRefreshingInterval = Integer.parseInt(mContext.getString(R.string.default_value_refreshing_interval));
+            }
+            if(oldUrl != mUrl) {
+                mOldRefreshingInterval = 0;
             }
         }
     }
@@ -117,11 +132,49 @@ public class BackendService {
             mBackendService = backend;
         }
 
+        private void UpdateRefreshInterval() {
+            Log.i(TAG, "UpdateRefreshInterval");
+            HttpClient httpclient = new DefaultHttpClient();
+            String request_url = "http://";
+            request_url += mUrl + "/demo/btcom-mon.php?";
+            request_url += "refresh=";
+            request_url += Integer.toString(mRefreshingInterval);
+
+            HttpGet httpget = new HttpGet(request_url);
+            try {
+                HttpResponse response = httpclient.execute(httpget);
+                StatusLine statusLine = response.getStatusLine();
+                int statusCode = statusLine.getStatusCode();
+                if(statusCode == 200)
+                {
+                    ;
+                }
+                else
+                {
+                    Log.e(TAG, "Failed to get:" + statusLine.toString());
+                }
+            } catch (ClientProtocolException e) {
+                e.printStackTrace();
+            } catch (UnsupportedEncodingException e)
+            {
+                e.printStackTrace();
+            } catch (IOException e)
+            {
+                e.printStackTrace();
+            }
+        }
+
         public void run() {
             Log.i(TAG, "BEGIN ReportThread:");
             setName("ReportThread");
 
             while(mExit == false) {
+                synchronized (mLock) {
+                    if(mOldRefreshingInterval != mRefreshingInterval) {
+                        UpdateRefreshInterval();
+                        mOldRefreshingInterval = mRefreshingInterval;
+                    }
+                }
                 HttpClient httpclient = new DefaultHttpClient();
                 String request_url = "http://";
                 synchronized (mLock) {

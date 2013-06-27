@@ -15,4 +15,9 @@
             android:key="@string/key_angle"
             android:title="@string/setting_angle"
             android:defaultValue="@string/default_value_angle" />
+
+    <EditTextPreference
+            android:key="@string/key_refreshing_interval"
+            android:title="@string/setting_refreshing_interval"
+            android:defaultValue="@string/default_value_refreshing_interval" />
 </PreferenceScreen>

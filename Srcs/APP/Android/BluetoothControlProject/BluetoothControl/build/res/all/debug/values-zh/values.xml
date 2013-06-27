@@ -13,6 +13,7 @@
     <string name="button_stop_monitor">停止监测</string>
     <string name="setting_angle">扇角</string>
     <string name="setting_radius">半径</string>
+    <string name="setting_refreshing_interval">浏览器刷新频率</string>
     <string name="setting_url">服务器地址</string>
     <string name="text_no_divice">没有发现设备</string>
     <string name="text_status_not_paired">蓝牙设备尚未配对成功</string>

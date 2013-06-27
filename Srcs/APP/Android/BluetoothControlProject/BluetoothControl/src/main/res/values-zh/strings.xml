@@ -35,5 +35,6 @@
     <string name="setting_url">服务器地址</string>
     <string name="setting_radius">半径</string>
     <string name="setting_angle">扇角</string>
+    <string name="setting_refreshing_interval">浏览器刷新频率</string>
 
 </resources>

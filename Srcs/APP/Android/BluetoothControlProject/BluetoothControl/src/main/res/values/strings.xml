@@ -36,13 +36,16 @@
     <string name="setting_url">URL</string>
     <string name="setting_radius">Radius</string>
     <string name="setting_angle">Angle</string>
+    <string name="setting_refreshing_interval">Refreshing interval</string>
 
     <string name="default_value_url">ppk001.sinaapp.com</string>
     <string name="default_value_radius">50.0</string>
     <string name="default_value_angle">60.0</string>
+    <string name="default_value_refreshing_interval">5</string>
 
     <string name="key_url">url</string>
     <string name="key_radius">Radius</string>
     <string name="key_angle">Angle</string>
+    <string name="key_refreshing_interval">RefresingInterval</string>
 
 </resources>
